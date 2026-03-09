@@ -1,0 +1,40 @@
+本周我实现了一个基于 LangChain 和 FastAPI 的 RAG+Agent 文档问答系统。
+系统通过 Embedding 将文档向量化并存储在向量数据库中，用户问题通过 Retriever 进行相似度检索，然后将相关文档提供给 LLM 生成回答。
+最终使用 FastAPI 将整个系统封装成一个 HTTP API，实现了完整的端到端 AI 服务。
+
+本周的核心目标是：
+构建一个 基于 RAG 的文档问答系统，并提供 API 服务
+
+技术路线：
+LLM
+ ↓
+LangChain
+ ↓
+RAG 文档检索
+ ↓
+FastAPI 封装 API
+ ↓
+HTTP 调用
+
+
+涉及主要框架：
+LangChain
+FastAPI
+Chroma
+
+二、本周技术路线（从底层到应用）
+这一周的学习其实是一个 逐层搭建 LLM 应用系统 的过程
+文档数据
+ ↓
+Embedding
+ ↓
+Vector Store
+ ↓
+Retriever
+ ↓
+RAG Chain
+ ↓
+Agent
+ ↓
+FastAPI API
+每一步解决一个问题。
