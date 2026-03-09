@@ -1,0 +1,11 @@
+LangChain 是一个用于构建 LLM 应用程序的框架。
+
+它提供了多种组件：
+
+1 Prompt Template
+2 Memory
+3 Tools
+4 Agents
+5 VectorStore
+
+RAG（Retrieval Augmented Generation）是一种让大模型先检索知识再回答问题的技术。
