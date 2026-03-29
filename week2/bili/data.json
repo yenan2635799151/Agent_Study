@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "张伟",
+    "age": 28,
+    "skills": ["Python", "Go", "Kubernetes"],
+    "address": {
+      "city": "北京",
+      "district": "海淀区"
+    },
+    "projects": [
+      {"name": "智能客服系统", "role": "后端开发"},
+      {"name": "数据中台", "role": "架构设计"}
+    ]
+  },
+  {
+    "id": 2,
+    "name": "李娜",
+    "age": 32,
+    "skills": ["产品设计", "数据分析", "SQL"],
+    "address": {
+      "city": "上海",
+      "district": "浦东新区"
+    },
+    "projects": [
+      {"name": "用户增长平台", "role": "产品经理"}
+    ]
+  },
+  {
+    "id": 3,
+    "name": "王强",
+    "age": 25,
+    "skills": ["JavaScript", "React", "Vue"],
+    "address": {
+      "city": "深圳",
+      "district": "南山区"
+    },
+    "projects": [
+      {"name": "企业官网重构", "role": "前端开发"},
+      {"name": "小程序商城", "role": "核心开发"},
+      {"name": "管理后台", "role": "技术负责人"}
+    ]
+  },
+  {
+    "id": 4,
+    "name": "刘芳",
+    "age": 30,
+    "skills": ["机器学习", "Python", "TensorFlow"],
+    "address": {
+      "city": "杭州",
+      "district": "余杭区"
+    },
+    "projects": [
+      {"name": "推荐算法优化", "role": "算法工程师"},
+      {"name": "图像识别系统", "role": "模型训练"}
+    ]
+  },
+  {
+    "id": 5,
+    "name": "陈明",
+    "age": 35,
+    "skills": ["团队管理", "架构设计", "Java"],
+    "address": {
+      "city": "成都",
+      "district": "高新区"
+    },
+    "projects": [
+      {"name": "微服务架构升级", "role": "技术总监"},
+      {"name": "云原生迁移", "role": "项目总负责"}
+    ]
+  }
+]
